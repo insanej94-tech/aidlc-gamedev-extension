@@ -268,13 +268,19 @@ These rules govern AI behavior when building games with non-developer users. The
 
 These rules apply to EVERY AI-DLC stage when the Game Development extension is enabled:
 
-- **Inception**: Use game-design-interview.md for structured ideation. All questions in plain language. Proactively suggest game mechanics based on stated preferences.
-- **Construction**: Follow milestone-progression.md. Auto-commit after milestones. Use godot-puzzle-patterns.md for implementation. Apply anticipatory enhancement on every feature.
-- **Operations**: Follow playtesting-loop.md. Present results visually. Accept vague feedback gracefully.
+**IMPORTANT**: Always load `ORCHESTRATION.md` first — it defines the master workflow sequence, file loading order, and phase transitions for the entire extension.
+
+- **Initialization**: Load ORCHESTRATION.md → gamedev-baseline.md → non-developer-mode.md. Check for GAME_STATUS.md to determine phase.
+- **Inception**: Use game-design-interview.md for structured ideation. Apply fun-design-framework.md principles to concept development. All questions in plain language. Proactively suggest game mechanics based on stated preferences.
+- **Construction**: Follow milestone-progression.md. Auto-commit after milestones (version-control-guide.md). Use godot-puzzle-patterns.md for implementation. Apply anticipatory enhancement on every feature. Apply accessibility.md to every feature. Apply fun-design-framework.md juice to every interaction. Build in-game-tutorial.md elements for first-play experience. Use asset-management.md for all visual/audio decisions.
+- **Versus/Multiplayer**: Use ai-opponent-design.md for AI enemies. Use multiplayer-architecture.md for networked play.
+- **Export/Release**: Follow game-export-guide.md for distribution. Follow post-completion-guide.md for polish → beta → release pipeline.
+- **Maintenance**: Follow post-completion-guide.md maintenance section. Use localization.md when multi-language support is requested.
 
 At each stage completion, include:
 
 - Game Development Compliance summary (GAMEDEV-01 through GAMEDEV-10)
+- Accessibility compliance (GAMEDEV-A1 through GAMEDEV-A6 from accessibility.md)
 - Mark each rule as compliant / non-compliant / N/A
 - Non-compliance with any GAMEDEV rule is a blocking finding when in full non-developer mode (opt-in option A)
 - Non-compliance is advisory when in partial mode (opt-in option B)

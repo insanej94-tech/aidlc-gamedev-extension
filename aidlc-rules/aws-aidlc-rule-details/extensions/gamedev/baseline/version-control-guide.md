@@ -48,6 +48,7 @@ chore: 세션 종료 저장
 For a single non-developer user, branches add unnecessary complexity:
 
 - **Main branch only** for most work (`main`)
+- **Note**: This differs from typical development workflows (which use feature branches and PRs). For non-developer game projects, the simplicity of main-only outweighs the safety of branches. If this extension is used within a multi-contributor project, follow the project's existing branch strategy instead.
 - Create a branch ONLY if:
   - Experimenting with a risky/uncertain feature the user might reject
   - The AI wants to try two different approaches for user comparison

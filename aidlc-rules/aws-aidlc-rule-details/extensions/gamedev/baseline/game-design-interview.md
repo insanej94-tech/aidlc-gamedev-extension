@@ -181,7 +181,7 @@ Map to implementable art direction:
 
 ### Purpose
 
-Find what makes THIS game different from its references. This is where creativity happens.
+Find what makes THIS game different from its references. This is where creativity happens. Apply principles from `fun-design-framework.md` (tension-release, agency, surprise) when evaluating twist ideas.
 
 ### Prompt
 

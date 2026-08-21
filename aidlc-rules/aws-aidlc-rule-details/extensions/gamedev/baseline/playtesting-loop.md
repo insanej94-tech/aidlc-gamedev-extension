@@ -56,6 +56,8 @@ The AI MUST:
 
 ## Phase 2: Receiving Feedback
 
+**Note**: The authoritative feedback interpretation table is in `non-developer-mode.md`. This section provides additional context for the playtest-specific feedback loop.
+
 ### Feedback Types the AI Must Handle
 
 | Feedback Style | Example | AI Interpretation |

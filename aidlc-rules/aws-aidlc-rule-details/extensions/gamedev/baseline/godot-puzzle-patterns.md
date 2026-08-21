@@ -347,6 +347,8 @@ When to save:
 
 ## Accessibility Baseline
 
+**Note**: Full accessibility rules are defined in `accessibility.md` (GAMEDEV-A1 through GAMEDEV-A6). This section is a quick reference for implementation. When in doubt, defer to `accessibility.md`.
+
 ### Always Implement
 
 ```text

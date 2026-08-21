@@ -194,6 +194,13 @@ M16+. 새 캐릭터 / 이벤트 / 스토리 / 일일 도전 등
 
 ## Milestone Execution Protocol
 
+**Related files** (consult during milestone execution):
+- `godot-puzzle-patterns.md` — implementation patterns for puzzle mechanics
+- `playtesting-loop.md` — feedback collection after each milestone
+- `version-control-guide.md` — auto-commit and save strategy
+- `accessibility.md` — inclusive design applied to every feature
+- `fun-design-framework.md` — juice and feel applied to every interaction
+
 ### Before Starting a Milestone
 
 ```text

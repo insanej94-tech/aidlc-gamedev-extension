@@ -244,6 +244,8 @@ If the AI fails to fix an issue after 3 attempts:
 
 ## Recovery Strategies
 
+**Note**: Full rollback protocol is defined in `version-control-guide.md`. This section covers the user-facing behavior during recovery.
+
 ### If Project Gets Into Bad State
 
 1. Check if last known good state exists in Git history
